@@ -10,4 +10,8 @@ return {
   "folke/neodev.nvim",
   "olexsmir/gopher.nvim",
   "folke/todo-comments.nvim",
+  "dart-lang/dart-vim-plugin",
+  "thosakwe/vim-flutter",
+  "natebosch/vim-lsc",
+  "natebosch/vim-lsc-dart",
 }

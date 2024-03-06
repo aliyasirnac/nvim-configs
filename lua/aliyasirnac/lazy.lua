@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({ { import = "aliyasirnac.plugins" }, { import = "aliyasirnac.plugins.lsp" } }, {
   install = {
-    colorscheme = { "nightfly" },
+    colorscheme = { "catppuccin-mocha" },
   },
   checker = {
     enabled = true,
