@@ -14,4 +14,5 @@ return {
   "thosakwe/vim-flutter",
   "natebosch/vim-lsc",
   "natebosch/vim-lsc-dart",
+  "joerdav/templ.vim",
 }

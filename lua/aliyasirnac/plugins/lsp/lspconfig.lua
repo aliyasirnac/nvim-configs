@@ -100,6 +100,11 @@ return {
       on_attach = on_attach,
     })
 
+    lspconfig["templ"].setup({
+      capabilities = capabilities,
+      on_attach = on_attach,
+    })
+
     -- configure svelte server
     lspconfig["svelte"].setup({
       capabilities = capabilities,
@@ -159,6 +164,8 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
+
+    vim.api.nvim_create_autocmd({ "BufWritePre" }, { pattern = { "*.templ" }, callback = vim.lsp.buf.format })
 
     -- configure lua server (with special settings)
     lspconfig["lua_ls"].setup({
